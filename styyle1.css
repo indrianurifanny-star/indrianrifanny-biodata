@@ -1,0 +1,60 @@
+html {scroll-behavior: smooth;}
+
+body 
+    {font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #fce7f3);
+    margin: 0;
+    padding: 0;}
+
+
+section 
+    {background-color: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #f4c2d7;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);}
+
+a
+    {text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;}
+
+a:hover 
+    {color: #db2777;}
+
+img 
+    {margin-top: 15px;
+    border-radius: 10px;}
+
+.biodata-box 
+    {display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;}
+
+.biodata-foto 
+    {width: 30%;
+    text-align: center;}
+
+.biodata-foto img 
+    {width: 220px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 0;
+    display: block;}
+
+.biodata-text 
+    {width: 70%;}
+
+.foto-landscape 
+    {width: 320px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;}
+  
+img 
+    {max-width: 100%;
+    height: auto;
+    border-radius: 10px;}
